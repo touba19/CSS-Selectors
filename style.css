@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(150, 171, 172);
+}
+#idSelector{
+    text-align: center;
+    color: brown;
+    text-decoration: underline;
+}
+
+.classSelector{
+    background: rgb(134, 220, 223);
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    font-family: 'Marck Script', cursive;
+}
+div{
+    margin: 5px 5px 20px 5px;
+}
+
+/*CSS [attribute] Selector*/
+img[alt]{
+    border: 3px solid red;
+}
+/*CSS [attribute="value"] Selector*/
+a[href='http://facebook.com']
+{
+    color: rgb(121, 0, 151);
+    border: 4px solid rgb(121, 0, 151);
+}
+/*CSS [attribute^="value"] Selector*/
+input[placeholder^='Your']
+{
+    background: rgb(247, 180, 122);
+}
+/*CSS [attribute$="value"] Selector*/
+input[placeholder$='here']
+{
+    border: 4px solid peru;
+}
+/*CSS [attribute*="value"] Selector*/
+p[title*='short']{
+    color: purple;
+    font-family: 'Marck Script', cursive;
+    background: whitesmoke;
+}
+/*CSS [attribute~="value"] Selector*/
+input[placeholder~='your']
+{
+    font-family: 'Marck Script', cursive;
+    background: yellow;
+}

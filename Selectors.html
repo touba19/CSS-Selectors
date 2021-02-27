@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>selectors</title>
+</head>
+<body>
+
+    <!--id SELECTOR-->
+    <h1 id="idSelector">I am the largest heading!!</h1>
+
+    <!--CLASS Selectors-->
+    <h2>Lorem Paragraphs  </h2>
+       <p class="classSelector" >Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+       Dignissimos ratione debitis magnam est sapiente rerum odio pariatur excepturi 
+       ex deleniti itaque at, enim libero, ipsam tempora modi aut quidem ullam. Lorem, 
+       ipsum dolor sit amet consectetur adipisicing elit. Architecto, non natus. Quae 
+       quam reiciendis sed, enim non velit ab, unde tempore ipsa pariatur quidem qui 
+       dolorum consectetur veniam ipsum obcaecati!</p>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ab a ullam
+       dolorum hic omnis repudiandae, optio cum, tempore sit natus quae? Nemo aut enim 
+       fugiat laudantium. Ut, corporis commodi. Lorem ipsum dolor sit amet consectetur 
+       adipisicing elit. Repellendus nemo accusamus modi laborum necessitatibus! Excepturi, 
+       in eos consectetur velit minus voluptates dolorem quidem veniam obcaecati asperiores 
+       fugit corrupti sit ea.</p>
+       <p class="classSelector" >Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Dignissimos ratione debitis magnam est sapiente rerum odio pariatur excepturi 
+        ex deleniti itaque at, enim libero, ipsam tempora modi aut quidem ullam. Lorem, 
+        ipsum dolor sit amet consectetur adipisicing elit. Architecto, non natus. Quae 
+        quam reiciendis sed, enim non velit ab, unde tempore ipsa pariatur quidem qui 
+        dolorum consectetur veniam ipsum obcaecati!</p>
+
+    <!--ATTRIBUTE SELECTOR-->
+    <h1>Attribute Selector</h1>
+
+    <!--CSS [attribute] Selector-->
+    <img src="3.jpg" alt="Image of programming languages">
+    <img src="3.jpg" >
+
+    <!--CSS [attribute="value"] Selector-->
+    <div>
+        <a href="http://google.com">Take me to Google</a>
+    </div>
+    <div>
+        <a href="http://facebook.com">Take me to Facebook</a>
+    </div>
+    <!--CSS [attribute^="value"] Selector-->
+    <div>
+
+        <label for="name">Name : </label>
+        <input type="text"  id="name" placeholder="Your Name">
+    </div>
+    <!--CSS [attribute$="value"] Selector-->
+    <div>
+        <label for="pass">Password : </label>
+        <input type="password" id="pass" placeholder="Password here">
+    </div>
+    <!--CSS [attribute*="value"] Selector-->
+    <div>
+        <p title="lorem ipsem short context">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora repellat nobis aperiam id, 
+            eligendi ex fugit ea assumenda non quasi laboriosam harum vitae veritatis atque dicta aspernatur maiores enim quo?</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eligendi laboriosam fugit earum? Reprehenderit, quis harum.
+             Fugit sed laboriosam eveniet, perspiciatis doloremque mollitia, alias doloribus corrupti illo natus perferendis esse?
+        </p>
+    </div>
+    <!--CSS [attribute~="value"] Selector-->
+    <div>
+        <label for="email">Email : </label>
+        <input type="email" name="" id="email" placeholder="write your email">
+    </div>
+    <div>
+        <label for="email">Email : </label>
+        <input type="email" name="" id="email" placeholder="write_your_email">
+    </div>
+</body>
+</html>
